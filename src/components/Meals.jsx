@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import MealItem from "./MealItem";
 
 export default function Meals() {
+  console.log('Meals rendered');
   const [loadedMeals, setLoadedMeals] = useState([]);
 
   useEffect(() => {
